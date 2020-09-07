@@ -196,5 +196,14 @@ public class Aluno extends Pessoa {
 			return false;
 		return true;
 	}
+	
+	@Override /* Identifica método sobrescrito */
+	public boolean pessoaMaiorIdade() {
+		return idade >= 21;
+	}
+	
+	public String msgMaiorIdade() {
+		return this.pessoaMaiorIdade() ? "Oba, o aluno é maior de idade!" : "Ixi, você é menor de idade!";
+	}
 
 }
