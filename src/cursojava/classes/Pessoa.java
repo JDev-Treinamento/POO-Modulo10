@@ -1,5 +1,6 @@
 package cursojava.classes;
 
+/* Herança - Classe pai, classe master ou superclasses - (Atributos comuns à todos objetos filhos) */
 public class Pessoa {
 
 	protected String nome;
